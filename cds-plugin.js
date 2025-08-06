@@ -12,7 +12,7 @@ cds.on("bootstrap", async () => {
 
 function _lazyRegisterCompileTarget() {
     const ord = require("./lib/index").ord;
-    Object.defineProperty(this, "ord", { ord });
+    Object.defineProperty(this, "ord", { value: ord });
     return ord;
 }
 

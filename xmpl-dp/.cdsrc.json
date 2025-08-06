@@ -1,0 +1,37 @@
+{
+    "export": {
+        "asyncapi": {
+            "application_namespace": "sap",
+            "event_spec_version": "2.1.0",
+            "event_source": "/{region}/sap.sample/{instanceId}ord",
+            "merged": {
+                "title": "Merged Title",
+                "version": "1.2.3"
+            }
+        }
+    },
+    "ord": {
+        "namespace": "customer.sample",
+        "description": "this is my custom description",
+        "policyLevels": ["sap:core:v1"],
+        "customOrdContentFile": "./ord/custom.ord.json",
+        "existingProductORDId": "sap:product:SAPServiceCloudV2:",
+        "products": [
+            {
+                "ordId": "customer:product:eb.bm.tests:",
+                "vendor": "sap:vendor:SAP:"
+            }
+        ],
+        "packages": [
+            {
+                "vendor": "sap:vendor:SAP:"
+            }
+        ]
+    },
+    "authentication": {
+        "types": ["basic"],
+        "credentials": {
+            "admin": "$2a$05$cx46X.uaat9Az0XLfc8.BuijktdnHrIvtRMXnLdhozqo.1Eeo7.ZW"
+        }
+    }
+}

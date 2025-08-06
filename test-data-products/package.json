@@ -1,0 +1,8 @@
+{
+  "name": "test-data-products",
+  "version": "1.0.0",
+  "description": "Test application for ORD data products",
+  "dependencies": {
+    "@sap/cds": "*"
+  }
+}

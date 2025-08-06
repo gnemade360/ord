@@ -1,0 +1,10 @@
+{
+  "ord": {
+    "namespace": "customer.sample",
+    "openResourceDiscovery": "1.9",
+    "customOrdContentFile": "./ord/custom.ord.json",
+    "features": {
+      "dataProducts": true
+    }
+  }
+}

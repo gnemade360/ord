@@ -1,0 +1,21 @@
+{
+  "dataProducts": [
+    {
+      "id": "customer.sample:dataProduct:CustomerService:v1",
+      "title": "Customer 360 Data Product",
+      "description": "Enhanced customer data product with additional metadata",
+      "visibility": "internal",
+      "tags": [
+        { "key": "domain", "value": "customer" },
+        { "key": "quality", "value": "platinum" },
+        { "key": "refresh", "value": "real-time" }
+      ]
+    },
+    {
+      "id": "customer.sample:dataProduct:SalesService:v2",
+      "title": "Sales Analytics Premium",
+      "description": "Premium sales analytics with ML insights",
+      "visibility": "private"
+    }
+  ]
+}
