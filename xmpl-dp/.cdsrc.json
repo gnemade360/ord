@@ -16,6 +16,9 @@
         "policyLevels": ["sap:core:v1"],
         "customOrdContentFile": "./ord/custom.ord.json",
         "existingProductORDId": "sap:product:SAPServiceCloudV2:",
+        "dataProducts": {
+            "enabled": true
+        },
         "products": [
             {
                 "ordId": "customer:product:eb.bm.tests:",
@@ -27,6 +30,12 @@
                 "vendor": "sap:vendor:SAP:"
             }
         ]
+    },
+    "dpd": {
+        "dataProducts": {
+            "enabled": true,
+            "outputPath": "gen/dpd"
+        }
     },
     "authentication": {
         "types": ["basic"],
